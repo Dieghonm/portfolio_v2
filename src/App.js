@@ -1,9 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Page404 from './pages/404';
+import Header from './pages/header';
+import Footer from './pages/footer';
 
 function App() {
   return (
     <div className="App">
+        <Header />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -17,6 +21,8 @@ function App() {
         >
           Learn React
         </a>
+        <Page404 />
+        <Footer />
       </header>
     </div>
   );
